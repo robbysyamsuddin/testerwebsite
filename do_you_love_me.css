@@ -87,8 +87,13 @@ body {
   transition: 0.2s;
 }
 .gif-result {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 10px;
   margin-bottom: 2rem;
+  max-width: 100%; /* agar responsif */
+
 }
 .result-container h2 {
   font-size: 3.2rem;
